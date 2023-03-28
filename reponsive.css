@@ -1,0 +1,100 @@
+@media (min-width:1024px){
+    
+}
+@media(min-width:740px) and (max-width:1023px){
+    .right-header .sign{
+        display: none;
+    }
+    .swiper{
+        width: 95%;
+    }
+    .container-item .menu-btn{
+        display: block;
+        margin-right: 90%;
+        cursor: pointer;
+    }
+    #header .menu ul{
+        display: none;
+    }
+    .title p{
+        display: block;
+    }
+    .right-header .key-word {
+        display: none;
+    }
+    .right-header .ti-search {
+        display: none;
+    }
+   #search-mobile{
+        margin-left: 90%;
+        font-weight: 900;
+        color: rgb(159, 180, 199);
+        font-size: 30px;
+        display: block;
+    }
+    .motchill{
+        position: absolute;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction,
+    .swiper-button-prev, .swiper-rtl .swiper-button-next,
+    .swiper-button-next, .swiper-rtl .swiper-button-prev{
+        display: none;
+    }
+    .view p{
+        margin-top: 47% !important;
+        font-size: 20px;
+    }
+    .name-film{
+        font-size: 20px;
+        padding-top: 51%;
+    }
+
+}
+@media(max-width:740px){
+    .right-header .sign{
+        display: none;
+    }
+    .swiper{
+        width: 95%;
+    }
+    .container-item .menu-btn{
+        display: block;
+        margin-right: 90%;
+    }
+    #header .menu ul{
+        display: none;
+    }
+    .title p{
+        display: block;
+    }
+    .right-header .key-word {
+        display: none;
+    }
+    .right-header .ti-search {
+     display: none;
+    }
+ #search-mobile{
+        margin-left: 90%;
+        font-weight: 900;
+        color: rgb(159, 180, 199);
+        font-size: 30px;
+        display: block;
+    }
+    .motchill{
+        position: absolute;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction,
+    .swiper-button-prev, .swiper-rtl .swiper-button-next,
+    .swiper-button-next, .swiper-rtl .swiper-button-prev{
+        display: none;
+    }
+    .view p{
+        margin-top: 43% !important;
+        font-size: 20px;
+    }
+    .name-film{
+        font-size: 20px;
+        padding-top: 48%;
+    }
+
+}
