@@ -302,12 +302,12 @@
 }
 
 #list-film .rank {
-  color: white;
+  /* color: white;
   position: absolute;
   top: 0;
   display: block;
   padding: 50px;
-  background-color: rgba(0,0,0,0.4)
+  background-color: rgba(0,0,0,0.4) */
 }
 #list-film .rank p{
   font-size: 40px;
@@ -338,4 +338,15 @@
   text-decoration: none;
   color: red;
   padding-top: 20px;
+}
+.css-rank{
+  color: white;
+  position: absolute;
+  top: 0;
+  display: block;
+  padding: 50px;
+  background-color: rgba(0,0,0,0.4)
+}
+.hover-rank:hover> .rank p{
+  display: none;
 }
