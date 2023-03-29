@@ -317,6 +317,7 @@
 #footer{
   height: 142px;
   background-color: #333;
+  overflow: hidden;
 }
 #footer .cmt-footer{
   display: flex;
